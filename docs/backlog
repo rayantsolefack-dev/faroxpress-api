@@ -1,0 +1,12 @@
+# Backlog MVP (v0.1)
+
+1. Auth API (register/login/logout) via Sanctum
+2. Create Transfer: POST /api/transfers (CREATED)
+3. List Transfers: GET /api/transfers (pagination)
+4. Show Transfer: GET /api/transfers/{id}
+5. Rate/Fee: calcul simple (config statique)
+6. Status transitions contrôlées (machine)
+7. Payment placeholder: endpoint "mark paid" (admin/operator)
+8. Provider stub: simulate payout + retry
+9. Audit log: track actions (status change, notes)
+10. Roles/Seed: admin/operator/user
