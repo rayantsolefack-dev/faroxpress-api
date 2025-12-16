@@ -1,0 +1,12 @@
+# FaroXpress — Domaines métiers
+
+| Domaine | But | Entités / Concepts |
+|---|---|---|
+| Identity | users, rôles, auth | User, Role, UserId |
+| Transactions | transferts + statuts | Transfer, TransferId, Status |
+| Rates & Fees | taux, frais, marge | Rate, FeeRule |
+| Providers | intégration payout | Provider, PayoutRequest/Response |
+| Compliance | plafonds, KYC light | LimitRule, KycStatus |
+| Notifications | sms/email/push | Notification, Template |
+| Backoffice | actions opérateur | Filters, Status change, Notes |
+| Audit | traçabilité | AuditLog, Actor |
