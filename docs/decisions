@@ -1,0 +1,17 @@
+# Decisions (ADR-lite)
+
+## ADR-001 — Architecture
+Décision: séparation légère Domain / Application / Infrastructure / Http.
+Raison: rester clean et testable sans overkill.
+
+## ADR-002 — Auth
+Décision: Laravel Sanctum (tokens).
+Raison: standard Laravel, rapide pour MVP.
+
+## ADR-003 — Provider MVP
+Décision: ORANGE_MONEY en premier (stub/simulation au début).
+Raison: réduire la complexité et livrer vite.
+
+## ADR-004 — Paiement MVP
+Décision: paiement simulé (mark as paid) protégé backoffice.
+Raison: découpler paiement réel du MVP.
